@@ -55,6 +55,5 @@
 			<attribute name="m2e-apt" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/upload/sqljdbc_12.8/enu/jars/mssql-jdbc-12.8.1.jre11.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

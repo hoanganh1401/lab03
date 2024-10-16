@@ -148,6 +148,12 @@ public class CategoryDao implements ICategoryDao {
 	    }
 	}
 
+	@Override
+	public List<Category> searchByName(String catname) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 
 
 }

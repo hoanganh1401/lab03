@@ -56,5 +56,9 @@ ICategoryDao cateDao = new CategoryDao();
 		cateDao.insert(category);
 		
 	}
+	@Override
+	public List<Category> searchByName(String catname) {
+		return cateDao.searchByName(catname);
+	}
 
 }

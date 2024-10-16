@@ -22,4 +22,6 @@ public interface ICategoryDao {
 
 	void insert(Category category);
 
+	List<Category> searchByName(String catname);
+
 }

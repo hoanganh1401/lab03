@@ -5,13 +5,13 @@
     https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
     version="3.0">
    <persistence-unit name="jpa-hibernate-sql">
-		<class>vn.iostar.entity.Category</class>
+		<!-- <class>vn.iostar.entity.Category</class>
 		<class>vn.iostar.entity.Video</class>
 		<class>vn.iostar.entity.User</class>
-		<class>vn.iostar.entity.Role</class>
+		<class>vn.iostar.entity.Role</class> -->
 		<properties>
 			<property name="jakarta.persistence.jdbc.url"
-				value="jdbc:sqlserver://localhost:1433;databaseName=jpact4" />
+				value="jdbc:sqlserver://DESKTOP-0A9U9E2\HOANGANH;databaseName=jpact4" />
 			<property name="jakarta.persistence.jdbc.driver"
 				value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
 			<property name="jakarta.persistence.jdbc.user" value="sa" />
@@ -20,7 +20,7 @@
 			<property name="hibernate.format_sql" value="true" />
 			<property name="hibernate.hbm2ddl.auto" value="update" />
 			<property name="hibernate.dialect"
-				value="org.hibernate.dialect.SQLServer2012Dialect" />
+				value="org.hibernate.dialect.SQLServerDialect" />
 		</properties>
 	</persistence-unit>
 </persistence>

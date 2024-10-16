@@ -20,4 +20,6 @@ public interface ICategoryService {
 	void update(Category category);
 
 	void insert(Category category);
+
+	List<Category> searchByName(String catname);
 }
